@@ -23,12 +23,12 @@ import (
 	"strings"
 	"time"
 
+	"github.com/go-packages/dingtalk/v2/cache"
+	"github.com/go-packages/dingtalk/v2/constant"
+	"github.com/go-packages/dingtalk/v2/crypto"
+	"github.com/go-packages/dingtalk/v2/request"
+	"github.com/go-packages/dingtalk/v2/response"
 	"github.com/pkg/errors"
-	"github.com/zhaoyunxing92/dingtalk/v2/cache"
-	"github.com/zhaoyunxing92/dingtalk/v2/constant"
-	"github.com/zhaoyunxing92/dingtalk/v2/crypto"
-	"github.com/zhaoyunxing92/dingtalk/v2/request"
-	"github.com/zhaoyunxing92/dingtalk/v2/response"
 )
 
 // GetAccessToken 获取token

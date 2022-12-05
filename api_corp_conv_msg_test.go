@@ -21,8 +21,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/zhaoyunxing92/dingtalk/v2/domain/message"
-	"github.com/zhaoyunxing92/dingtalk/v2/request"
+	"github.com/go-packages/dingtalk/v2/domain/message"
+	"github.com/go-packages/dingtalk/v2/request"
 )
 
 func TestDingTalk_SendTemplateMessage(t *testing.T) {

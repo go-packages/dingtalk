@@ -19,9 +19,9 @@ package request
 import (
 	"testing"
 
+	"github.com/go-packages/dingtalk/v2/constant/file"
+	"github.com/go-packages/dingtalk/v2/constant/policy"
 	"github.com/stretchr/testify/assert"
-	"github.com/zhaoyunxing92/dingtalk/v2/constant/file"
-	"github.com/zhaoyunxing92/dingtalk/v2/constant/policy"
 )
 
 func TestNewCreateDriveSpacesFiles(t *testing.T) {

@@ -19,8 +19,8 @@ package request
 import (
 	"testing"
 
+	"github.com/go-packages/dingtalk/v2/constant/language"
 	"github.com/stretchr/testify/assert"
-	"github.com/zhaoyunxing92/dingtalk/v2/constant/language"
 )
 
 func TestNewDeptList(t *testing.T) {

@@ -31,18 +31,18 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zhaoyunxing92/dingtalk/v2/crypto"
+	"github.com/go-packages/dingtalk/v2/crypto"
 
 	"github.com/go-playground/validator/v10"
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/zhaoyunxing92/dingtalk/v2/cache"
-	"github.com/zhaoyunxing92/dingtalk/v2/constant"
-	"github.com/zhaoyunxing92/dingtalk/v2/logger"
-	"github.com/zhaoyunxing92/dingtalk/v2/request"
-	"github.com/zhaoyunxing92/dingtalk/v2/response"
+	"github.com/go-packages/dingtalk/v2/cache"
+	"github.com/go-packages/dingtalk/v2/constant"
+	"github.com/go-packages/dingtalk/v2/logger"
+	"github.com/go-packages/dingtalk/v2/request"
+	"github.com/go-packages/dingtalk/v2/response"
 )
 
 type DingTalk struct {
