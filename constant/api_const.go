@@ -172,4 +172,8 @@ const (
 	GetAttendanceGroupDetailKey     = "/topapi/attendance/group/query"           // 获取考勤组详情
 	SearchAttendanceGroupKey        = "/topapi/attendance/group/search"          // 搜索考勤组摘要
 	CreateAttendanceGroupKey        = "/topapi/attendance/group/add"             // 创建考勤组
+
+	GetUserAccessTokenKey = "/v1.0/oauth2/userAccessToken" //获取用户token
+
+	GetUserInfoByUnionIdKey = "/v1.0/contact/users/%s" //获取用户通讯录个人信息
 )
